@@ -1,0 +1,161 @@
+div > h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.sub_plan__left {
+  display: flex;
+}
+.sub_plan__left input {
+  margin-right: 0.5rem;
+  width: 18px;
+  border: none;
+}
+.sub_plan {
+  border: 3px solid gray;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0.8rem;
+  border-radius: 5px;
+}
+.active {
+  background-color: #47ba68;
+  cursor: grabbing;
+}
+
+.active:hover {
+  background-color: lightgreen;
+}
+
+.sub_plan:hover {
+  border: 3px solid green;
+  background: lightgreen;
+  cursor: grab;
+}
+
+.sub_plan:first-child {
+  background-color: #e7e7e7;
+  border: 3px solid gray;
+  position: relative;
+  cursor: not-allowed;
+}
+.sub_plan:nth-child(2) {
+  /* background-color: #d7eddd;
+  border: 3px solid #47ba68; */
+  position: relative;
+}
+/* .sub_plan:nth-child(2):hover {
+  background-color: lightgreen;
+} */
+.sub_plan:first-child:before {
+  content: 'Offer expired';
+  background-color: #de4313;
+  font-size: 11px;
+  color: #fff;
+  padding: 1px 10px;
+  border-radius: 0 0 5px 5px;
+  position: absolute;
+  top: 0;
+  left: 2rem;
+}
+.sub_plan:nth-child(2):before {
+  content: 'Recommended';
+  background-color: #47ba68;
+  font-size: 11px;
+  color: #fff;
+  padding: 1px 10px;
+  border-radius: 0 0 5px 5px;
+  position: absolute;
+  top: 0;
+  left: 2rem;
+}
+.sub_offer {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-between;
+  border: 2px solid #de4313;
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+}
+.sub_offer__left {
+  display: flex;
+  flex-direction: column;
+}
+.sub_offer__top {
+  font-size: 18px;
+  font-weight: 600;
+}
+.sub_offer__top,
+.sub_offer__bottom {
+  color: #de4313;
+}
+.sub_offer__bottom {
+  display: flex;
+  margin-top: 0.2rem;
+}
+.sub_offer__bottom img {
+  width: 22px;
+  margin-right: 0.3rem;
+  color: #de4313;
+}
+.org_sub__fee {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 1rem;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 1rem;
+}
+.tot {
+  font-weight: bold;
+}
+.month {
+  color: #bebebe;
+}
+.permonth {
+  margin-left: 1rem;
+}
+.total_text {
+  font-weight: bold;
+}
+.total_amount {
+  font-weight: bold;
+  font-size: 25px;
+}
+.amount {
+  font-weight: 600;
+}
+.btn_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0 1rem;
+}
+.btn_container button {
+  padding: 0.8rem 1rem;
+  width: 190px;
+  text-align: center;
+  cursor: pointer;
+}
+.cancel {
+  border: 2px solid #de4313;
+  color: #de4313;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.pay {
+  border: 2px solid #47ba68;
+  background-color: #47ba68;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+}
+.pay:hover {
+  font-size: 12px;
+  border: 3px solid green;
+}
+.cancel:hover {
+  border: 3px solid red;
+}

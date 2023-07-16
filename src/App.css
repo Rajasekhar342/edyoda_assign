@@ -1,0 +1,175 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 3rem;
+  background-color: #fff;
+  height: auto;
+}
+.logo {
+  width: 100px;
+  margin-top: 0.2rem;
+  margin-right: 2rem;
+}
+.header_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.courses,
+.programmes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
+.courses > p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.programmes > p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.expand_more {
+  margin-top: 0.3rem;
+  margin-left: 0.3rem;
+}
+.header_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search,
+.login,
+.button {
+  margin-left: 2rem;
+}
+.login p {
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.search img {
+  width: 20px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+.button button {
+  padding: 0.4rem 1.1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #0096ff;
+  border: none;
+  cursor: pointer;
+}
+.body_content {
+  background-image: url(./img/background.svg);
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 0 3rem;
+}
+.body_left {
+  margin: 3rem 3rem;
+  width: 50%;
+  font-weight: 400;
+}
+.body_left .head_line {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+.head_line {
+  margin-bottom: 2rem;
+}
+del {
+  color: red;
+}
+del > span {
+  color: white;
+}
+.old_price {
+  font-weight: bold;
+}
+.new_price {
+  color: #0084ff;
+  font-weight: 500;
+}
+.info {
+  margin-left: 0;
+}
+.sub_info {
+  display: flex;
+  margin-bottom: 2.5rem;
+  align-items: center;
+}
+.sub_info img {
+  width: 40px;
+  margin-right: 2.2rem;
+}
+.sub_info p {
+  font-size: 24px;
+}
+.highlight {
+  color: #0096ff;
+  font-weight: bold;
+}
+.body_right {
+  margin: 3rem 0;
+  width: 430px;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #fff;
+  color: black;
+}
+.signandsub {
+  display: flex;
+  justify-content: space-around;
+  margin: 0.3rem 3rem;
+}
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+.signup p {
+  color: #3c4852;
+}
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+.subscribe p {
+  color: #3c4852;
+}
+.signandsub button {
+  width: 27px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0096ff;
+  padding: 0.4rem;
+  border: none;
+  text-align: center;
+}
+.radio_btn {
+  border: 1px solid gray;
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
